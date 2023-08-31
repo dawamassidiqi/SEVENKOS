@@ -1,0 +1,135 @@
+
+/* .container{
+    display: flex;
+    justify-content:space-evenly;
+} */
+.card1{
+    margin-right: 10px;
+    width: 800px;
+    background: linear-gradient(90deg, rgba(83, 104, 118, 0.8) 0%, rgba(41, 46, 73, 0.8) 100%);
+}
+.card2{
+    display: flex;
+    
+}
+.container-flex{
+    display:flex;
+}
+.container-info{
+    display:flex;
+    justify-content: center;
+}
+.container-info-rekomendasi{
+    display:flex;
+    justify-content: space-between;
+}
+.card-kos{
+    display: flex;
+}
+.card-kos img{
+    height: 250px;
+    width:auto;
+}
+.input-search{
+    padding-right:300px;
+    margin-left:30px;
+}
+.navbar-a{
+    font-family: Montserrat;
+    text-decoration: underline;
+    font-size: 17px;
+}
+.navbar-a:hover{
+    color: #FC6767;
+    font-family: Montserrat;
+}
+.info a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    font-family:'Montserrat';
+}
+.info a:hover{
+    color: #FC6767;
+    font-size: 15px;
+    text-decoration: none;
+    font-family:'Montserrat';
+}
+.bottom-cari-kos{
+    background: linear-gradient(90deg, rgba(83, 104, 118, 0.8) 0%, rgba(41, 46, 73, 0.8) 100%);
+    border-radius: 5px;
+    margin:40px;
+    height: 100%; 
+}
+.container-cari-kos label{
+    margin: 5px;
+}
+.card-image-kampus{
+    display: flex;  
+    justify-content: center; 
+    margin: 40px;
+}
+.container-footer{
+    padding: 30px; 
+    display:flex;
+}
+.container-footer h1{
+    margin-left: 30px; 
+    color:white;
+}
+.container-footer p{
+    font-size:20px; 
+    width:100%; margin-left:30px; 
+    color:white;
+}
+
+footer{
+    background: linear-gradient(90deg, rgba(83, 104, 118, 0.8) 0%, rgba(41, 46, 73, 0.8) 100%);
+    height: 100%;
+}
+table a{
+    text-decoration: none;
+    color: white;
+}
+table a:hover{
+    color: #FC6767;
+}
+@media (max-width:700px) {
+    .container-info{
+        display: block;
+        justify-content: center;
+    }
+    .card2{
+        display: block;
+    }
+    .input-search{
+        padding-right:0;
+    }
+    .button{
+        text-align: center;
+    }
+    .card-kos{
+        display: block;
+        justify-content: center;
+    }
+    .card-kos img{
+        display: block;
+        height: 50;
+        width: 200px;
+    }
+    .card-image-kampus{
+        display: block;
+    }
+    .container-footer{
+        padding: 15px; 
+        display:block;
+    }
+    .container-footer h1{
+        margin-left: 0px; 
+        text-align: center;
+    }
+    .container-footer p{
+        margin-left:0px; 
+        text-align: center;
+    }
+  }
