@@ -43,3 +43,12 @@ Route::get('/login', function () {
     return view(
         'landing-page.kost');
 })->name('#');
+
+// detail kos
+Route::get('/detail_kos', function () {
+    return view('landing-page.detail_kos');
+})->name('detail-kos');
+//  login
+Route::get('/loginSevenkos', function () {
+    return view('auth.login');
+})->name('login');

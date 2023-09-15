@@ -12,16 +12,29 @@
     display: flex;
     
 }
+.navbar a{
+    font-family: 'Montserrat';
+}
 .container-flex{
     display:flex;
 }
 .container-info{
     display:flex;
     justify-content: center;
+    border-top: 3px solid #FC6767; 
+    border-left: 3px solid #FC6767; 
+    margin: 40px; 
+    border-radius: 10px 0px; 
+    padding:10px 0px 0px 10px;
 }
 .container-info-rekomendasi{
     display:flex;
     justify-content: space-between;
+    border-left: 3px solid #FC6767; 
+    border-bottom: 3px solid #FC6767;   
+    border-radius: 0px 10px; 
+    padding:10px 0px 0px 10px; 
+    margin:0px 40px;
 }
 .card-kos{
     display: flex;
@@ -43,11 +56,15 @@
     color: #FC6767;
     font-family: Montserrat;
 }
+.info{
+    width:200px;
+}
 .info a{
     color: black;
     font-size: 15px;
     text-decoration: none;
     font-family:'Montserrat';
+    margin: 5px;
 }
 .info a:hover{
     color: #FC6767;
@@ -70,7 +87,7 @@
     margin: 40px;
 }
 .container-footer{
-    padding: 30px; 
+    padding: 100px 10px; 
     display:flex;
 }
 .container-footer h1{
@@ -79,7 +96,8 @@
 }
 .container-footer p{
     font-size:20px; 
-    width:100%; margin-left:30px; 
+    width:70%; 
+    margin-left:30px; 
     color:white;
 }
 
@@ -90,14 +108,63 @@ footer{
 table a{
     text-decoration: none;
     color: white;
+    
 }
 table a:hover{
     color: #FC6767;
 }
+
+/* horizontal scroll */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.card-scroll-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.card-scroll .col-sm-3 {
+    width: auto;
+    display: inline-block;
+    margin-right: 5px; /* Jarak antara card */
+    vertical-align: top; /* Agar card tetap sejajar */
+}
+
+.col-sm-3 .card {
+    width: 200px; 
+}
+
+.card-img {
+    max-width: 100%;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    color: white;
+}
+.container-footer button{
+    margin-left: 30px; 
+    border:1px solid #FC6767
+}
+/* end */
 @media (max-width:700px) {
     .container-info{
         display: block;
         justify-content: center;
+        border: 2px solid #FC6767;
+        border-radius: 5px;
+        margin : 5px 10px;
     }
     .card2{
         display: block;
@@ -109,13 +176,13 @@ table a:hover{
         text-align: center;
     }
     .card-kos{
-        display: block;
-        justify-content: center;
+        margin: 5px;
+
     }
     .card-kos img{
         display: block;
-        height: 50;
-        width: 200px;
+        height: auto;
+        width: 100%;
     }
     .card-image-kampus{
         display: block;
@@ -132,4 +199,38 @@ table a:hover{
         margin-left:0px; 
         text-align: center;
     }
+    .container-info-rekomendasi{
+        display: block;
+        border: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    .info{
+        display: flex;
+        border-radius: 5px;
+        width: 100%;
+        padding: 5px;
+        white-space: nowrap;
+        overflow-x: auto;
+        text-align: center;
+    }
+    .info a{
+        background-color: #FC6767;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .info a:hover{
+        color: white;
+    }
+    .container-footer p{
+        font-size:20px; 
+        width:100%; 
+        margin-left:0; 
+        color:white;
+    }
+    body{
+        font-size: small;
+    }
+    
+    
   }

@@ -12,12 +12,17 @@
     border-radius: 5px;
     background-color: #FC6767;
 }
+.toggle{
+    display:flex;
+    justify-content: space-between;
+}
 .card-image-kos-kost{
     display: flex;
     margin: 40px;
+
 }
 .image img{
-    width: 250px;
+    width: auto;
     height: auto;
     margin: 5px 0px;
 }.image{
@@ -39,6 +44,7 @@
 label{
     font-family: 'Montserrat';
 }
+
 @media (max-width:700px){
     .card-image-kos-kost{
         display: block;

@@ -1,0 +1,229 @@
+.card-scroll-container {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px 40px;
+}
+.card-scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    /* padding: 10px 0; */
+    text-align: center;
+}
+/* fasilitas kos */
+.fasilitas-kos{ 
+    margin: 0px 40px;
+    display: grid;
+    grid-template-areas: "Fkost Fkost Fkost Fkost"
+                         "Fkamar Fbersama Akost card"
+                         "table tentang tentang card";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 0.5fr;
+}
+.fasilitas-kos h4{
+    grid-area: Fkost;
+}
+.fasilitas-kos label{
+    margin: 5px;
+}
+.Fkamar{
+    grid-area: Fkamar;
+    border-right: 3px solid #FC6767; 
+    margin:10px; 
+}
+.Fbersama{
+    grid-area: Fbersama;
+    border-right: 3px solid #FC6767; 
+    margin:10px; 
+}
+.Akost{
+    grid-area: Akost;
+}
+.fasilitas-kos table{
+    grid-area: table;
+    border-bottom: 2px solid #FC6767;
+}
+.tentang-kos{
+    grid-area: tentang;
+    border-bottom: 2px solid #FC6767;
+}
+.card-sewa{
+    grid-area: card;
+}
+/* card */
+/* .card-sewa{
+    margin-left: 10px;
+    grid-area: card;
+    display: grid;
+    grid-template-areas: "rp rp"
+                         "tgl bulan"
+                         "data-sewa data-sewa"
+                         "buttomWa buttomWa"
+                         "buttom buttom";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 1fr 0.1fr 0.2fr;
+}
+.card-sewa p{
+    grid-area: rp;
+}
+.card-sewa input{
+    grid-area: tgl;
+}
+.card-sewa select{
+    grid-area: bulan;
+}
+.data-sewa table{
+    grid-area: data-sewa;
+}
+*/
+.card-sewa a{
+    text-decoration:none; 
+    color:white;
+}
+/* .card-sewa button{
+    grid-area: buttom;
+ 
+    padding: 5px 0px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px 0px;
+}  */
+
+
+/* end */
+.card-scroll .col-sm-3 {
+    width: auto;
+    display: inline-block;
+    margin-right: 0px; /* Jarak antara card */
+    vertical-align: top; /* Agar card tetap sejajar */
+}
+.card {
+    margin: 0px;
+}
+table td{
+    padding: 5px 0px;
+    font-size: 100%;
+}
+.card-img {
+    max-width: 100%;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    color: white;
+}
+
+
+/* coba */
+.image-jojo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 10px;
+    
+}
+
+/* mmmmmmm */
+.container-jojo {
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+ 
+}
+
+.container-jojo:hover {
+    width: 70%;
+    transition: 1.5s;
+}
+.container-jojo1:hover {
+    width: 60%;
+    transition: 1.5s;
+}
+.container-jojo2:hover {
+    width: 60%;
+    transition: 1.5s;
+}
+
+/* mmmmmmm */
+.container-jojo1 {
+    width: 25%;
+    height: 400px;
+    overflow: hidden;
+}
+/* mmmmmmm */
+.container-jojo2 {
+    width: 25%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 10px; /* Sesuaikan posisi vertikal teks sesuai kebutuhan Anda */
+    left: 50px; /* Sesuaikan posisi horizontal teks sesuai kebutuhan Anda */
+    color: white; /* Warna teks */
+    font-size: 40px; /* Ukuran teks */
+    margin: 30px;
+}
+.card-sewa{
+    background: linear-gradient(90deg, rgba(83, 104, 118, 0.8) 0%, rgba(41, 46, 73, 0.8) 100%);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.card-sewa input{
+    margin: 0px 5px 0px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    background: rgba(41, 46, 73, 0.50);
+    color: white;
+}
+.card-sewa select{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    border: 0;
+    background: rgba(41, 46, 73, 0.50);
+    color: white;
+}
+.dropdown-menu li{
+    margin: 5px;
+    text-align: center;
+
+}
+.dropdown-menu button{
+    margin: 0;
+    padding: 0;
+
+}
+@media (max-width:700px){
+    .fasilitas-kos{ 
+        text-align: center;
+        margin: 0px 40px;
+        display: grid;
+        grid-template-areas: "Fkost"
+                             "Fkamar"
+                             " Fbersama"
+                             " Akost"
+                             " card"
+                             "table"
+                             " tentang";
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    }
+    .Fkamar{
+        border-bottom: 2px solid #FC6767; 
+        border-right: 0;
+    }
+    .Fbersama{
+        border-right: 0;
+        border-bottom: 2px solid #FC6767; 
+    }
+    
+}
+
+
