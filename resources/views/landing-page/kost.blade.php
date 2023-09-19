@@ -14,7 +14,7 @@
   <body>
 
       {{-- form --}}
-      <form action="{{ route('#') }}" method="post">
+      <form action="{{ route('#') }}" method="get">
 
       <div class="row g-2" style="padding:10px; margin:20px 40px; border-radius:10px; background: linear-gradient(90deg, rgba(83, 104, 118, 0.80) 0%, rgba(41, 46, 73, 0.80) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat; font-family:'Montserrat'; ">
 
@@ -22,10 +22,10 @@
             <label for="floatingSelectGrid" style="font-size: 17px;">Tipe <span>penghuni</span> </label>
           <div class="form-floating">
             <select class="form-select" id="floatingSelectGrid">
-              <option selected>Open this select menu</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+              <option selected>Laki-Laki</option>
+              <option value="1">Perempuan</option>
+              <option value="2">Pasutri</option>
+              <option value="3">Mahasiswa</option>
             </select>
           </div>
         </div>
@@ -33,10 +33,10 @@
             <label for="floatingSelectGrid" style="font-size: 17px;">Urutkan <span>berdasarkan</span> </label>
           <div class="form-floating">
             <select class="form-select" id="floatingSelectGrid">
-              <option selected>Open this select menu</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+              <option selected>Paling rekomendasi</option>
+              <option value="1">Terbaru</option>
+              <option value="2">Paling Diminati</option>
+              <option value="3">Banyak Dilihat</option>
             </select>
           </div>
         </div>
@@ -76,104 +76,25 @@
     <div class="container">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
 
-        <div class="col-sm-5">
-          <a href="{{ route('detail-kos') }}">
-          <div class="card" style="border: 0px;">
-              <img src="assets/Rectangle 9 (8).png" class="card-img" alt="gambar">
-              <div class="card-img-overlay" style="color: white;">
-                <p style="text-align:end;"><span style="background-color: #FC6767; padding:5px; border-radius:5px;">Campur</span></p>
-                <br>
-                <h5>Kost Cozy Haven</h5>
-                <p>Yogyakarta</p>
-                <p>1.700.000/Bulan</p>
-              </div>
-            </div> 
-          </a>
-      </div>
-        <div class="col-sm-5">
-          <a href="{{ route('detail-kos') }}">
-          <div class="card" style="border: 0px;">
-              <img src="assets/Rectangle 9 (8).png" class="card-img" alt="gambar">
-              <div class="card-img-overlay" style="color: white;">
-                <p style="text-align:end;"><span style="background-color: #FC6767; padding:5px; border-radius:5px;">Campur</span></p>
-                <br>
-                <h5>Kost Cozy Haven</h5>
-                <p>Yogyakarta</p>
-                <p>1.700.000/Bulan</p>
-              </div>
-            </div> 
-          </a>
-      </div>
-        <div class="col-sm-5">
-          <a href="{{ route('detail-kos') }}">
-          <div class="card" style="border: 0px;">
-              <img src="assets/Rectangle 9 (8).png" class="card-img" alt="gambar">
-              <div class="card-img-overlay" style="color: white;">
-                <p style="text-align:end;"><span style="background-color: #FC6767; padding:5px; border-radius:5px;">Campur</span></p>
-                <br>
-                <h5>Kost Cozy Haven</h5>
-                <p>Yogyakarta</p>
-                <p>1.700.000/Bulan</p>
-              </div>
-            </div> 
-          </a>
-      </div>
-        <div class="col-sm-5">
-          <a href="{{ route('detail-kos') }}">
-          <div class="card" style="border: 0px;">
-              <img src="assets/Rectangle 9 (8).png" class="card-img" alt="gambar">
-              <div class="card-img-overlay" style="color: white;">
-                <p style="text-align:end;"><span style="background-color: #FC6767; padding:5px; border-radius:5px;">Campur</span></p>
-                <br>
-                <h5>Kost Cozy Haven</h5>
-                <p>Yogyakarta</p>
-                <p>1.700.000/Bulan</p>
-              </div>
-            </div> 
-          </a>
-      </div>
-        <div class="col-sm-5">
-          <a href="{{ route('detail-kos') }}">
-          <div class="card" style="border: 0px;">
-              <img src="assets/Rectangle 9 (8).png" class="card-img" alt="gambar">
-              <div class="card-img-overlay" style="color: white;">
-                <p style="text-align:end;"><span style="background-color: #FC6767; padding:5px; border-radius:5px;">Campur</span></p>
-                <br>
-                <h5>Kost Cozy Haven</h5>
-                <p>Yogyakarta</p>
-                <p>1.700.000/Bulan</p>
-              </div>
-            </div> 
-          </a>
-      </div>
-        <div class="col-sm-5">
-          <a href="{{ route('detail-kos') }}">
-          <div class="card" style="border: 0px;">
-              <img src="assets/Rectangle 9 (8).png" class="card-img" alt="gambar">
-              <div class="card-img-overlay" style="color: white;">
-                <p style="text-align:end;"><span style="background-color: #FC6767; padding:5px; border-radius:5px;">Campur</span></p>
-                <br>
-                <h5>Kost Cozy Haven</h5>
-                <p>Yogyakarta</p>
-                <p>1.700.000/Bulan</p>
-              </div>
-            </div> 
-          </a>
-      </div>
-        <div class="col-sm-5">
-          <a href="{{ route('detail-kos') }}">
-          <div class="card" style="border: 0px;">
-              <img src="assets/Rectangle 9 (8).png" class="card-img" alt="gambar">
-              <div class="card-img-overlay" style="color: white;">
-                <p style="text-align:end;"><span style="background-color: #FC6767; padding:5px; border-radius:5px;">Campur</span></p>
-                <br>
-                <h5>Kost Cozy Haven</h5>
-                <p>Yogyakarta</p>
-                <p>1.700.000/Bulan</p>
-              </div>
-            </div> 
-          </a>
-      </div>
+      {{-- kos data--}}
+      @foreach ($kost as $kos)
+      
+      <div class="col-sm-5">
+        <a href="{{ route('detail-kos') }}">
+        <div class="card" style="border: 0px;">
+            <img src="assets/Rectangle 9 (8).png" class="card-img" alt="gambar">
+            <div class="card-img-overlay" style="color: white;">
+              <p style="text-align:end;"><span style="background-color: #FC6767; padding:5px; border-radius:5px;">Campur</span></p>
+              <br>
+              <h5>{{ $kos->namaKos }}</h5>
+              <p>{{ $kos->alamatKos }}</p>
+              <p>{{ $kos->hargaPerbulan }}</p>
+            </div>
+          </div> 
+        </a>
+    </div>
+    @endforeach
+      {{-- end kos data --}}
       
       </div>
     </div>

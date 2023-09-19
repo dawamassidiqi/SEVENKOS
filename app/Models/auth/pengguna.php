@@ -1,19 +1,16 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\auth;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class kos extends Model
+class pengguna extends Model
 {
     use HasFactory;
     protected $fillable =
     [
-        'namaKos',
-        'alamatKos',
-        'hargaPerbulan',
-        'fasilitasKos'
-
+        'username',
+        'password'
     ];
 }

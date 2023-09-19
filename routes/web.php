@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\auth\authController;
+use App\Http\Controllers\KosController;
+use App\Http\Controllers\landingPageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,41 +17,43 @@ use Illuminate\Support\Facades\Route;
 */
 
 // landing page
-Route::get('/', function () {
-    return view(
-        'landing-page.landing_page');
-})->name('landing.page.home');
+// Route::get('/', function () {
+//     return view('landing-page.landing_page');
+// })->name('landing.page.home');
+
+Route::get('/',[landingPageController::class, 'index'])->name('landin-page.home');
 
 // kost
-Route::get('/kost', function () {
-    return view(
-        'landing-page.kost');
-})->name('daftar.kos');
+// Route::get('/kost', function () {
+//     return view('landing-page.kost');
+// })->name('daftar.kos');
+
+Route::get('/kost',[KosController::class, 'index'])->name('daftar.kos');
 
 // regis
 Route::get('/regis', function () {
-    return view(
-        'landing-page.kost');
+    return view('landing-page.kost');
 })->name('sevenkos.regis');
 
 // login
-Route::get('/login', function () {
-    return view(
-        'landing-page.kost');
-})->name('sevenkos.login');
+// Route::get('/login', function () {
+//     return view('landing-page.kost');
+// })->name('sevenkos.login');
 
 
 // route dummy
-Route::get('/login', function () {
-    return view(
-        'landing-page.kost');
+Route::get('/dummy', function () {
+    return view('landing-page.kost');
 })->name('#');
 
 // detail kos
-Route::get('/detail_kos', function () {
+Route::get('/detail-kos', function () {
     return view('landing-page.detail_kos');
 })->name('detail-kos');
 //  login
-Route::get('/loginSevenkos', function () {
-    return view('auth.login');
-})->name('login');
+// Route::get('/login', function () {
+//     return view('auth.login');
+// })->name('login');
+
+Route::get('/login',[authController::class, 'index'])->name('login');
+Route::post('/login',[authController::class, 'loginPengguna'])->name('login-controller');

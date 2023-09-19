@@ -15,17 +15,7 @@
         <div class="card2" style="background: linear-gradient(90deg, rgba(83, 104, 118, 0.8) 0%, rgba(41, 46, 73, 0.8) 100%);">
 
             {{-- navbar --}}
-            
-      
-            {{-- <div class="card" style=" height:300px; width:100%; border:0; border-radius:0px 0px 5px 0px;"> --}}
               <div class="card-body" style=" width:80%; margin-left:40px;">
-                {{-- <div class="logo" style="display: flex; font-size:12px; margin-left:30px;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" viewBox="0 0 41 44" fill="none">
-                    <path d="M20.1075 21.1273C20.2458 21.0877 20.4871 21.0614 20.8153 21.0482C21.0887 21.0383 21.4233 21.0416 21.5552 21.0548C21.6871 21.068 21.8834 21.1042 21.9895 21.1339C22.0957 21.1602 22.2308 21.1898 22.2887 21.1964C22.3434 21.203 22.456 21.2392 22.5365 21.2755C22.6169 21.3117 22.6844 21.338 22.6909 21.3315C22.6941 21.3282 22.7649 21.3545 22.8421 21.3874C22.9225 21.4237 23.0673 21.4895 23.1638 21.5389C23.2603 21.5851 23.3858 21.6542 23.4373 21.6871C23.4887 21.7201 23.656 21.8321 23.8008 21.9309C23.952 22.0362 24.2255 22.2734 24.4217 22.4776C24.6148 22.6752 24.8464 22.9419 24.9333 23.0704C25.0201 23.1988 25.1553 23.4195 25.2325 23.5644C25.3129 23.7093 25.4126 23.9168 25.4545 24.0255C25.4995 24.1342 25.5638 24.312 25.6636 24.6183L39.4428 24.6348V44H1.28687V25.3922H7.46389L7.47997 37.6602L33.298 37.6767V27.6318H25.5445L25.477 27.7865C25.4416 27.8755 25.3451 28.0764 25.2646 28.241C25.1842 28.4057 25.0941 28.5671 25.0652 28.6033C25.033 28.6395 24.959 28.7449 24.8979 28.8404C24.8368 28.9327 24.6212 29.1797 24.4185 29.3871C24.2158 29.5946 23.9585 29.8285 23.8459 29.9075C23.7333 29.9865 23.5885 30.0854 23.5241 30.1249C23.4598 30.1644 23.3858 30.2105 23.3665 30.2303C23.344 30.25 23.3182 30.2665 23.3086 30.2665C23.2989 30.2665 23.2442 30.2928 23.1895 30.3225C23.1316 30.3554 23.0383 30.3982 22.9869 30.418C22.9354 30.441 22.7681 30.5036 22.6169 30.5629C22.4657 30.6189 22.308 30.6716 22.263 30.6782C22.218 30.6848 22.0539 30.7177 21.893 30.7539C21.6485 30.8099 21.5037 30.8165 20.96 30.8099C20.4807 30.8033 20.2683 30.7868 20.1236 30.744C20.0174 30.7144 19.8951 30.6848 19.8501 30.6782C19.8051 30.6716 19.6603 30.6255 19.5284 30.5794C19.3965 30.53 19.2356 30.4707 19.1745 30.4443C19.1134 30.4147 18.9557 30.3389 18.8302 30.2731C18.7016 30.2072 18.5954 30.1413 18.5954 30.1249C18.5954 30.1117 18.5793 30.1018 18.5632 30.1018C18.5471 30.1018 18.4474 30.0458 18.3477 29.98C18.2447 29.9141 18.0324 29.7395 17.8747 29.5913C17.7171 29.4464 17.4887 29.2093 17.3696 29.0644C17.2538 28.9195 17.093 28.6988 17.0157 28.5704C16.9353 28.4419 16.8098 28.2147 16.7359 28.0599C16.6619 27.9051 16.5975 27.7503 16.5879 27.7141C16.5814 27.6779 16.5557 27.6021 16.5299 27.5494C16.5042 27.4967 16.4688 27.4045 16.456 27.3518C16.4431 27.2991 16.427 27.23 16.4238 27.2036C16.4206 27.1773 16.3884 27.0587 16.3562 26.9401C16.308 26.759 16.2983 26.6075 16.2983 25.9357C16.2983 25.2737 16.308 25.109 16.3562 24.9312C16.3884 24.8126 16.4206 24.6874 16.4238 24.6512C16.427 24.615 16.4431 24.5491 16.456 24.503C16.472 24.4569 16.5042 24.368 16.5299 24.3054C16.5589 24.2428 16.5814 24.1737 16.5846 24.1572C16.5879 24.1407 16.6651 23.9662 16.7584 23.7686C16.8485 23.5743 16.9385 23.4096 16.9546 23.3997C16.9707 23.3898 16.9804 23.3668 16.9707 23.3503C16.9611 23.3339 16.9643 23.3174 16.9771 23.3174C16.9932 23.3174 17.035 23.2614 17.0737 23.1955C17.1123 23.1264 17.1734 23.0407 17.2088 23.0045C17.2474 22.9683 17.2796 22.9222 17.2796 22.9057C17.2796 22.8892 17.4565 22.6949 17.6721 22.4776C17.9337 22.2141 18.1772 22.0066 18.4024 21.8551C18.589 21.73 18.7627 21.6213 18.7884 21.6114C18.8142 21.6015 18.8914 21.5587 18.9589 21.5159C19.0233 21.4731 19.078 21.4467 19.078 21.4566C19.078 21.4665 19.152 21.4368 19.2388 21.3907C19.3289 21.3446 19.3997 21.315 19.3997 21.3249C19.3997 21.3348 19.4737 21.3117 19.5605 21.2755C19.6506 21.2392 19.76 21.203 19.8083 21.1964C19.8597 21.1898 19.9917 21.1569 20.1075 21.1273Z" fill="#FAF4F4"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20.4936 0C20.5032 0 25.1263 4.72275 30.7661 10.4961C36.4058 16.2728 41.0128 21.0054 41 21.0219C40.9871 21.035 39.0343 21.0449 32.3489 21.0449L20.4968 8.90868L8.65426 21.0449H4.32713C1.46383 21.0449 0 21.035 0 21.012C0 20.9955 1.14211 19.8099 5.08317 15.7754V9.4521H11.2441L15.8608 4.72605C18.3992 2.12754 20.4839 0 20.4936 0Z" fill="#FAF4F4"/>
-                  </svg>
-                  <div class="seven" style="display: flex; margin-top:4px; margin-left:5px; color:white;">SEVEN<div class="kos" style="color: #FC6767;">KOS</div></div>
-                </div> --}}
                 <br>
                 <br>
            
@@ -35,8 +25,8 @@
                         <br>
                 <nav class="navbar">
                     <div class="container-fluid" style="background-color: white; border-radius:5px; width:100%">
-                      <form class="d-flex" role="search">
-                        <input class="input-search" type="search" placeholder="Nama Kos/Lokasi" aria-label="Search" style=" border:0; margin:5px 10% 5px 0px;">
+                      <form class="d-flex" role="search" method="get" action="{{ route('landin-page.home') }}">
+                        <input class="input-search" name="kos_search" type="search" placeholder="Nama Kos/Lokasi" aria-label="Search" style=" border:0; margin:end">
                         <button class="btn btn-outline-success" type="submit" style="margin:5px; padding:5px 20px; background: linear-gradient(90deg, rgba(83, 104, 118, 0.8) 0%, rgba(41, 46, 73, 0.8) 100%); border:0; color:white;">Cari</button>
                       </form>
                     </div>
@@ -135,153 +125,47 @@
     <div class="container-info-rekomendasi">
 
       <div class="info">
-        <p style="margin-bottom: 25px;"><a href="" >Saturan</a></p>
-        <p style="margin-bottom: 20px;"><a href="" >Babarsari</a></p>
-        <p style="margin-bottom: 25px;"><a href="" >Condong Catur</a></p>
-        <p style="margin-bottom: 25px;"><a href="" >Demangan</a></p>
-        <p style="margin-bottom: 30px;"><a href="" >Taman Siswa</a></p>
-        <p style="margin-bottom: 0px;"><a href="" >Maguwoharjo</a></p>
+        <p style="margin-bottom: 25px;"><a href="#saturan" >Saturan</a></p>
+        <p style="margin-bottom: 20px;"><a href="#babarsari" >Babarsari</a></p>
+        <p style="margin-bottom: 25px;"><a href="#condong-catur" >Condong Catur</a></p>
+        <p style="margin-bottom: 25px;"><a href="#demangan" >Demangan</a></p>
+        <p style="margin-bottom: 30px;"><a href="#taman-siswa" >Taman Siswa</a></p>
+        <p style="margin-bottom: 0px;"><a href="#maguwoharjo" >Maguwoharjo</a></p>
       </div>
 
     <div class="card-scroll-container">
       <div class="card-scroll">
- 
-          <div class="col-sm-3" style="margin: 5px;">
-              <div class="card">
-                  <img src="assets/Rectangle 9 (4).png" class="card-img" alt="gambar">
-                  <a href="{{ route('detail-kos') }}">
-                  <div class="card-img-overlay">
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <h5 class="card-title" style="color: white;">Kost Cozy Haven</h5>
-                      <p class="card-text" style="color: white;">Yogyakarta</p>
-                      <p class="card-text" style="color: white;"><small>1.700.000/Bulan</small></p>
-                  </div>
-              </div>
-            </a>
-          </div>
- 
-          <div class="col-sm-3" style="margin: 5px;">
-              <div class="card">
-                  <img src="assets/Rectangle 9 (4).png" class="card-img" alt="gambar">
-                  <a href="{{ route('detail-kos') }}">
-                  <div class="card-img-overlay">
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <h5 class="card-title" style="color: white;">Kost Cozy Haven</h5>
-                      <p class="card-text" style="color: white;">Yogyakarta</p>
-                      <p class="card-text" style="color: white;"><small>1.700.000/Bulan</small></p>
-                  </div>
-              </div>
-            </a>
-          </div>
- 
-          <div class="col-sm-3" style="margin: 5px;">
-              <div class="card">
-                  <img src="assets/Rectangle 9 (4).png" class="card-img" alt="gambar">
-                  <a href="{{ route('detail-kos') }}">
-                  <div class="card-img-overlay">
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <h5 class="card-title" style="color: white;">Kost Cozy Haven</h5>
-                      <p class="card-text" style="color: white;">Yogyakarta</p>
-                      <p class="card-text" style="color: white;"><small>1.700.000/Bulan</small></p>
-                  </div>
-              </div>
-            </a>
-          </div>
- 
-          <div class="col-sm-3" style="margin: 5px;">
-              <div class="card">
-                  <img src="assets/Rectangle 9 (4).png" class="card-img" alt="gambar">
-                  <a href="{{ route('detail-kos') }}">
-                  <div class="card-img-overlay">
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <h5 class="card-title" style="color: white;">Kost Cozy Haven</h5>
-                      <p class="card-text" style="color: white;">Yogyakarta</p>
-                      <p class="card-text" style="color: white;"><small>1.700.000/Bulan</small></p>
-                  </div>
-              </div>
-            </a>
-          </div>
- 
-          <div class="col-sm-3" style="margin: 5px;">
-              <div class="card">
-                  <img src="assets/Rectangle 9 (4).png" class="card-img" alt="gambar">
-                  <a href="{{ route('detail-kos') }}">
-                  <div class="card-img-overlay">
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <h5 class="card-title" style="color: white;">Kost Cozy Haven</h5>
-                      <p class="card-text" style="color: white;">Yogyakarta</p>
-                      <p class="card-text" style="color: white;"><small>1.700.000/Bulan</small></p>
-                  </div>
-              </div>
-            </a>
-          </div>
- 
-          <div class="col-sm-3" style="margin: 5px;">
-              <div class="card">
-                  <img src="assets/Rectangle 9 (4).png" class="card-img" alt="gambar">
-                  <a href="{{ route('detail-kos') }}">
-                  <div class="card-img-overlay">
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <h5 class="card-title" style="color: white;">Kost Cozy Haven</h5>
-                      <p class="card-text" style="color: white;">Yogyakarta</p>
-                      <p class="card-text" style="color: white;"><small>1.700.000/Bulan</small></p>
-                  </div>
-              </div>
-            </a>
-          </div>
- 
-          <div class="col-sm-3" style="margin: 5px;">
-              <div class="card">
-                  <img src="assets/Rectangle 9 (4).png" class="card-img" alt="gambar">
-                  <a href="{{ route('detail-kos') }}">
-                  <div class="card-img-overlay">
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <h5 class="card-title" style="color: white;">Kost Cozy Haven</h5>
-                      <p class="card-text" style="color: white;">Yogyakarta</p>
-                      <p class="card-text" style="color: white;"><small>1.700.000/Bulan</small></p>
-                  </div>
-              </div>
-            </a>
-          </div>
-  
-  </div>
-  </div>
 
+        {{-- include card kos kos disekitar jogja --}}
+          {{-- @include('layout.card-kost') --}}
+          {{-- end --}}
+
+          @foreach ($saturan as $kost)
+          <div class="saturan" id="saturan">
+          <div class="col-sm-3" style="margin: 5px;">
+              <div class="card">
+                  <img src="assets/Rectangle 9 l(4).png" class="card-img" alt="gambar">
+                  <a href="{{ route('detail-kos') }}">
+                  <div class="card-img-overlay">
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <h5 class="card-title" style="color: white;">{{$kost->namaKos}}</h5>
+                      <p class="card-text" style="color: white;">{{ $kost->alamatKos }}</p>
+                      <p class="card-text" style="color: white;"><small>1.700.000/Bulan</small></p>
+                  </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        @endforeach
+
+
+  </div>
+  </div>
   </div>
   {{-- end --}}
   

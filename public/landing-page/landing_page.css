@@ -126,10 +126,16 @@ body {
     overflow: hidden;
 }
 
-.card-scroll {
+/* .card-scroll {
     white-space: nowrap;
     overflow-x: auto;
+} */
+.card-scroll {
+    white-space: nowrap;
+    overflow-y: auto; 
+    height: 280px; 
 }
+
 
 .card-scroll .col-sm-3 {
     width: auto;
