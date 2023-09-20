@@ -23,4 +23,10 @@ class authController extends Controller
         }
         return back()->withErrors(['username'=>'error']);
     }
+
+    public function register(Request $request)
+    {
+        return $request;
+        
+    }
 }

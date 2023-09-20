@@ -45,7 +45,8 @@
           <p class="card-text" style="color: white;">Yogyakarta</p>
           <p class="card-text" style="color: white;"><small>1.700.000/Bulan</small></p>
         </div>
-    </div>
+  
+      </div>
     </a>
   </div>
 </div>

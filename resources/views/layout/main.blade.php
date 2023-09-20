@@ -46,7 +46,7 @@
                     <a class="nav-link active" aria-current="page" href="{{ route('login') }}" style="color: white;">Login</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{ route('#') }}" style="background-color: #FC6767; border-radius:5px; color:white;">Register</a>
+                    <a class="nav-link active" aria-current="page" href="{{ route('register') }}" style="background-color: #FC6767; border-radius:5px; color:white;">Register</a>
                   </li>
                 </ul>
           </span>

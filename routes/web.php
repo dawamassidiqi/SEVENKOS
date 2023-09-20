@@ -57,3 +57,5 @@ Route::get('/detail-kos', function () {
 
 Route::get('/login',[authController::class, 'index'])->name('login');
 Route::post('/login',[authController::class, 'loginPengguna'])->name('login-controller');
+Route::post('prosesregister',[authController::class, 'register']);
+Route::view('register', 'auth.register')->name('register'); 
