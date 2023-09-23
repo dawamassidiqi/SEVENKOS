@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\auth\authController;
 use App\Http\Controllers\KosController;
 use App\Http\Controllers\landingPageController;
+use Illuminate\Auth\Events\Login;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,20 +43,29 @@ Route::get('/regis', function () {
 
 
 // route dummy
-Route::get('/dummy', function () {
-    return view('landing-page.kost');
-})->name('#');
+// Route::get('/dummy', function () {
+//     return view('landing-page.landing_page');
+// })->name('#');
 
 // detail kos
 Route::get('/detail-kos', function () {
     return view('landing-page.detail_kos');
 })->name('detail-kos');
 //  login
-// Route::get('/login', function () {
+// Route::ge+t('/login', function () {
 //     return view('auth.login');
 // })->name('login');
 
 Route::get('/login',[authController::class, 'index'])->name('login');
 Route::post('/login',[authController::class, 'loginPengguna'])->name('login-controller');
 Route::post('prosesregister',[authController::class, 'register']);
-Route::view('register', 'auth.register')->name('register'); 
+Route::view('/register', 'auth.register')->name('register'); 
+Route::view('/selengkapnya', 'landing-page.selengkapnya')->name('#'); 
+
+Route::view('/saturan', 'landing-page.saturan')->name('saturan'); 
+
+// // Route::get('/kost',[KosController::class, 'index'])->name('daftar.kos');
+// Route::view('/universitasindonesia', 'landing-page.ui')->name('UI');
+// Route::view('/universitasbrawijaya', 'landing-page.bw')->name('brwjy');  
+// Route::view('/universitasgajahmada', 'landing-page.ugm')->name('ugm');  
+// Route::post('/selengkapnya', [authController::class, 'tampilselengkpanya'])->name('#');

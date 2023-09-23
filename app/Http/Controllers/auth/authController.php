@@ -6,8 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class authController extends Controller
-{
+class authControler extends Controller{
     public function index()
     {
         return view('auth.login');
@@ -24,9 +23,11 @@ class authController extends Controller
         return back()->withErrors(['username'=>'error']);
     }
 
-    public function register(Request $request)
-    {
-        return $request;
+    // public function register(Request $request)
+    // {
+    //     $validation = $request->validate([
+    //         'username'=>['required', 'unique:users']
+    //     ])
         
-    }
+    // }
 }
