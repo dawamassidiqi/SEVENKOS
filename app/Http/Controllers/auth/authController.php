@@ -3,10 +3,11 @@
 namespace App\Http\Controllers\auth;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class authControler extends Controller{
+class authController extends Controller{
     public function index()
     {
         return view('auth.login');
@@ -23,11 +24,14 @@ class authControler extends Controller{
         return back()->withErrors(['username'=>'error']);
     }
 
-    // public function register(Request $request)
-    // {
-    //     $validation = $request->validate([
-    //         'username'=>['required', 'unique:users']
-    //     ])
-        
-    // }
+    public function register(Request $request)
+    {
+        $validation = $request->validate([
+            'username'=>['required', 'unique:users,username'],
+            'password'=>['required'],
+            'retype_password'=>['required', 'same:password']
+        ]);
+        User::create($validation);
+        return 'String Sukses';
+    }
 }
